@@ -1,0 +1,21 @@
+{
+  "root_url": "https://example.com",
+  "depth": 3,
+  "crawled_links": [
+    {
+      "url": "https://example.com/page1",
+      "depth": 1,
+      "links": [
+        "https://example.com/page2",
+        "https://example.com/page3"
+      ]
+    },
+    {
+      "url": "https://example.com/page2",
+      "depth": 2,
+      "links": [
+        "https://example.com/page4"
+      ]
+    }
+  ]
+}
